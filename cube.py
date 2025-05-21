@@ -181,3 +181,15 @@ class Cube:
         # Simple string representation of the cube
         return '\n'.join(f"{face}:\n" + '\n'.join(str(row) for row in self.faces[face]) for face in self.faces)
 
+
+    def __lt__(self, other):
+        return True  # or False — doesn't matter, just avoids comparison crash
+
+    def __eq__(self, other):
+        return self.faces == other.faces
+
+    def __hash__(self):
+        return hash(tuple(
+            tuple(tuple(row) for row in self.faces[face])
+            for face in ['U', 'R', 'F', 'D', 'L', 'B']
+        ))

@@ -3,6 +3,7 @@
 from cube import Cube
 from dfs import dfs
 from bfs import bfs
+from astar import astar
 
 cube = Cube()
 
@@ -21,3 +22,7 @@ print("DFS solution:", solution_dfs)
 # Try BFS
 solution_bfs = bfs(cube, max_depth=6)
 print("BFS solution:", solution_bfs)
+
+# Try A* Search
+solution_astar = astar(cube, max_depth=12)
+print("A* solution:", solution_astar)
