@@ -33,6 +33,7 @@ The goal is to solve randomly scrambled Rubik’s Cubes ranging from **2×2×2**
 ├── main.py                # Entry point for manual solving and testing
 ├── test.py                # Benchmark runner and CSV logging
 ├── solver_results_avg.csv # Output: averaged results from all runs
+├── repor.pdf              # Overleaf report discussing the results
 ├── .gitignore             # Git ignored files
 ├── LICENSE                # Project license (Apache 2.0)
 └── README.md              # Project description (this file)
