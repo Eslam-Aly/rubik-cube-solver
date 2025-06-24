@@ -31,7 +31,6 @@ The goal is to solve randomly scrambled Rubik’s Cubes ranging from **2×2×2**
 ├── dfs.py                 # DFS implementation
 ├── heuristics.py          # Heuristic functions used by A*
 ├── main.py                # Entry point for manual solving and testing
-├── solver.py              # Handles multiple algorithm execution
 ├── test.py                # Benchmark runner and CSV logging
 ├── solver_results_avg.csv # Output: averaged results from all runs
 ├── .gitignore             # Git ignored files
